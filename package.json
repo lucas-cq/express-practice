@@ -1,0 +1,15 @@
+{
+  "name": "express-daily",
+  "version": "1.0.0",
+  "description": "Lucas' First Server with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Cummings",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
