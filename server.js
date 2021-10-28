@@ -1,12 +1,11 @@
-const fs = require('fs')
 const express = require('express')
 const app = express()
 
-app.use(express.static('public'))
+app.use(express.static('../public'))
 
-app.get('/some/dynamic/path', function(){
+/*app.get('/some/dynamic/path', function(){
   res.send([`one`,`two`,`three`])
-})
+})*/
 
 app.use(function(req, res) {
   res.status(404)
